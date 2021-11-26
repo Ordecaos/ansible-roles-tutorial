@@ -1,0 +1,7 @@
+all:
+  hosts:
+    35.246.29.117:
+  vars:
+    ansible_user: epica
+    ansible_ssh_private_key_file: '~/.ssh/id_rsa'
+    ansible_ssh_common_args: '-o StrictHostKeyChecking=no'
